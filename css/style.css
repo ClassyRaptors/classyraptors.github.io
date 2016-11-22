@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+}
+
+.container.extra {
+    height: auto;
+}
+
+.title,
+.image-container,
+.foot {
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+.title {
+    font-family: "Cubano";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    font-size: 2em;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://68.media.tumblr.com/dd229e1cce3bfb6e04caf3e87b83f56e/tumblr_ofwlc9vfQm1vfxx7uo1_1280.png) no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+    height: calc(100vh - 4em);
+    width: 90vw;
+}
+
+.image-container.extra {
+    background: url(https://i.imgur.com/oPgNjzu.gif) no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+    height: 40vw;
+    max-height: 50vh;
+    width: 40vw;
+}
+
+.container.extra .body {
+    text-align: center;
+    height: auto;
+}
+
+.container.extra .body p {
+    margin-top: 8px;
+    width: 40vw;
+}
+
+.container.extra .body .gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.container.extra .body .gallery .item {
+    display: block;
+    box-sizing: border-box;
+    padding: 2em;
+    overflow: hidden;
+    height: 20vw;
+    min-width: 25%;
+    position: relative;
+}
+
+.container.extra .body .gallery .item img {
+    display: block;
+    width: 20vh;
+}
+
+.foot {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    padding: 1em;
+}
+
+.foot a {
+    color: #000000;
+    text-decoration: none;
+    font-family: "Cubano";
+    padding: 0.25em 1em;
+}
+
+.theatre {
+    display: none;
+}
+
+.theatre.open {
+    cursor: pointer;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+.theatre img {
+    max-width: 80vw;
+    max-height: 80vh;
+}
