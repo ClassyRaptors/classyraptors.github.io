@@ -2,32 +2,89 @@
 <html> 
 <head> 
  	<title>Timothy Welman's Portfolio Site</title>
- 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<!-- Charset specifies the character encoding for webpage -->
 	<meta charset="utf-8">
 	<meta name="description" content="This is a portfolio site for Timothy Welman">
 	<meta name="keywords" content="Timothy, Welman, ClassyRaptor, Illustrations">
 	<meta name="author" content="Timothy Welman">
+
+ 	<link rel="stylesheet" type="text/css" href="css/reset.css">
+ 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-	<div class="container extra">
-		
-		<div class="title">Timothy Welman</div>
+	
+	<!-- ---v------v------v------v---HEADER---v------v------v------v--- -->
+	<div class="main-content">
 
-		<div class="image-container extra"></div>
+		<div class="header">
+			<div class="header-links"><a href="index.html">Timothy Welman</a></div>
+			<div class="header-links">
+				<ul>
+					<li><a href="index.html">Work.</a></li>
+				</ul>
+			</div>
+		</div>
+	<!-- ---^------^------^------^---HEADER---^------^------^------^--- -->
+
+	
+
+	<div class="about-image"><img id="timmy-img" src="img/Timmy.png"></div>
+
+	<div class="text-container">
 		<div class="body">
 			<p>
-				Hey! My name is Timothy Welman and I am studying Integrated Digital Media at New York University.
+				Hey! My name is Timothy Welman and I am studying Integrated Digital Media at New York University. This space is meant to be where I start writing about myself and all my acheivements that I think are notable enough so that people think I am cool and want to give me a job as a result. I will write something better here at a later time, but for now I will just continue to type whatever comes to my mind just so I can fill up the space on the page and make it look like I have a lot of cool things to say about myself. Beep. Boop. Beep. Boop. Will you please give me a job, because I really could use one so my parents can stop bugging me about it. Thank you.
+				<br>
+				<br>
+				If you would like to contact me, you can email me at <bold>classyraptor@gmail.com<bold>
+				<br>
+				<br>
+				You should check out my <a href="http://www.classyraptor.tumblr.com/">Tumblr</a> for miscellaneous drawings. Here is my <a href="http://www.twitter.com/classyraptor">Twitter</a>.
+				<br>
+				<br>
+				Hey! My name is Timothy Welman and I am studying Integrated Digital Media at New York University. This space is meant to be where I start writing about myself and all my acheivements that I think are notable enough so that people think I am cool and want to give me a job as a result. I will write something better here at a later time, but for now I will just continue to type whatever comes to my mind just so I can fill up the space on the page and make it look like I have a lot of cool things to say about myself. Beep. Boop. Beep. Boop. Will you please give me a job, because I really could use one so my parents can stop bugging me about it. Thank you.
+				<br>
+				<br>
+				If you would like to contact me, you can email me at <bold>classyraptor@gmail.com<bold>
+				<br>
+				<br>
+				Hey! My name is Timothy Welman and I am studying Integrated Digital Media at New York University. This space is meant to be where I start writing about myself and all my acheivements that I think are notable enough so that people think I am cool and want to give me a job as a result. I will write something better here at a later time, but for now I will just continue to type whatever comes to my mind just so I can fill up the space on the page and make it look like I have a lot of cool things to say about myself. Beep. Boop. Beep. Boop. Will you please give me a job, because I really could use one so my parents can stop bugging me about it. Thank you.
+				<br>
+				<br>
+				If you would like to contact me, you can email me at <bold>classyraptor@gmail.com<bold>
 			</p>
 		</div>
-		<div class="foot">
-			<a href="home.html">HOME</a>
-			<a href="work.html">WORK</a>
-			<a href="about.html">ABOUT</a>
-			<a href="https://classyraptor.tumblr.com">BLOG</a>
-		</div>
 	</div>
+
+ <script type="text/javascript">
+function Randomize() {
+    var images = new Array("Timmy.png","Timmy2.png","Timmy3.png","Timmy4.png","Timmy5.png","Timmy6.png");
+    var imageNum = Math.floor(Math.random() * images.length);
+    document.getElementById("timmy-img").src = "img/" + images[imageNum];
+}
+
+window.onload = Randomize;
+</script>
+ </script>
+
 </body> 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
