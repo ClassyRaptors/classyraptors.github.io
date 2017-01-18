@@ -1,5 +1,6 @@
+/* Imported Fonts*/
 @import url('https://fonts.googleapis.com/css?family=Arbutus+Slab');
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
 @font-face {
 font-family: Circular;
 src: url("CircularStd-Bold.otf") format("opentype");
@@ -14,7 +15,7 @@ body {
 /* Appearance of the header */
 .header {
 	display: flex;
-	flex-flow: row nowrap;
+	flex-flow: row wrap;
 	align-items: center;
 	justify-content: space-between;
 	box-sizing: border-box;
@@ -23,6 +24,7 @@ body {
 	font-family: 'Arbutus Slab', serif;
 	font-size: 2.3em;
 	padding: 0px 30px;
+	padding-top: 3px;
 	height: 90px;
 	width: 100%;
 	position: fixed;
@@ -129,16 +131,17 @@ body {
 
 /* Font for the description of the tile card */
 .image-container .image .image-description .description {
-	font-size: 1.5em;
+	font-size: 1.8vw;
 	font-family: 'Helvetica Neue', medium;
+	line-height: 102%;
 	margin: 10px;
 }
 
 /* Font for the title of the tile card */
 .image-container .image .image-description .title {
-	font-size: 3.65em;
-	margin: 10px 5px;
-	font-family: 'CircularStd-Bold';
+	font-size: 4.2vw;
+	margin: 5px 10px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 /* Position of the "See More" button */
@@ -149,7 +152,7 @@ body {
 	margin: auto;
 	text-align: center;
 	width: 100%;
-	font-family: 'CircularStd-Bold';
+	font-family: 'Montserrat', sans-serif;
 }
 
 .image-container .image .image-description .action a {
@@ -157,7 +160,7 @@ body {
 	color: #f0e9f3;
 	padding: 10px 18px;
 	border-radius: 5px;
-	font-size: 2em;
+	font-size: 2vw;
 }
 
 .image-container .image .image-description.orange .action a {
@@ -244,8 +247,24 @@ body {
 	color: #ffcf62;
 }
 
+/* SEEQ */
+.image-container .image.seeq .image-description{
+	background: #f1f3f9;
+}
+.image-container .image.seeq .image-description .title{
+	color: #a9b7d8;
+}
+.image-container .image.seeq .image-description .description{
+	color: #a9b7d8;
+}
+.image-container .image.seeq .image-description .action a {
+	background: #a9b7d8;
+	color: #f1f3f9;
+}
+
 /* -----------------------SPECIFIC COLORS FOR EACH TILE CARD----------------------- */
 
+/* -----------------------ABOUT PAGE CLASSES----------------------- */
 .about-image {
 	padding-top: 100px;
 	text-align: center;
@@ -260,6 +279,25 @@ body {
 	line-height: 1.4;
 	color: #333333;
 	text-align: justify;
+	min-width: 75px;
+	max-width: 30em;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35px;
+	margin-bottom: 100px;
+	display: flex;
+	flex-flow: row wrap;
+	position: relative;
+}
+
+/*
+.text-container {
+	font-family: 'Arbutus Slab', serif;
+	line-height: 1.4;
+	color: #333333;
+	text-align: justify;
 	padding-left: 30vw;
 	padding-right: 30vw;
 	padding-top: 30px;
@@ -268,6 +306,68 @@ body {
 	flex-flow: row wrap;
 	position: relative;
 }
+*/
+
+
+/* -----------------------CLASSES FOR PROJECT PAGES----------------------- */
+
+.project-title {
+	font-family:'Arbutus Slab', serif;
+	font-size: 72px;
+	color: #333333;
+	padding-top: 150px;
+	text-align: center;
+}
+
+.project-container{
+	max-width: 40em;
+	align-content: center;
+	padding-left: 25px;
+	padding-right: 25px;
+
+	margin-left: auto;
+	margin-right: auto;
+	
+	display: block;
+	flex-flow: row wrap;
+	position: relative;
+}
+
+.project-description {
+	font-family: 'Arbutus Slab', serif;
+	font-size: 13pt;
+	line-height: 1.4;
+	color: #333333;
+	text-align: justify;
+	min-width: 50px;
+	max-width: 100%;
+	margin-top: 28px;
+	margin-bottom: 20px;
+}
+ 
+.project-image {
+	padding-top: 10px;
+}
+
+#project-img {
+	max-width: 100%;
+
+}
+
+/*This adds a little space at the bottom of the page*/
+.footer-space{
+	height: 50px;
+}
+
+/*This makes a link within a paragraph remain the same color as the body text*/
+.link a {
+    color: #333333;
+    text-decoration: none;
+}
+
+
+
+
 
 
 
