@@ -258,6 +258,20 @@ body {
 	color: #f1f3f9;
 }
 
+/* MIDDAY DOODLES */
+.image-container .image.midday .image-description{
+	background: #ffeed2;
+}
+.image-container .image.midday .image-description .title{
+	color: #b89167;
+}
+.image-container .image.midday .image-description .description{
+	color: #b89167;
+}
+.image-container .image.midday .image-description .action a {
+	background: #b89167;
+	color: #ffeed2;
+}
 /* -----------------------SPECIFIC COLORS FOR EACH TILE CARD----------------------- */
 
 
