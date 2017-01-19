@@ -59,7 +59,7 @@ body {
 	position: relative;
 }
 
-/**/
+/*Rotates */
 .image-container .image.active .image-content {
 	transform: rotateY(180deg);
 }
@@ -274,11 +274,12 @@ body {
 
 .text-container {
 	font-family: 'Arbutus Slab', serif;
+	font-size: 13pt;
 	line-height: 1.4;
 	color: #333333;
 	text-align: justify;
 	min-width: 75px;
-	max-width: 30em;
+	max-width: 35em;
 	padding-left: 25px;
 	padding-right: 25px;
 	margin-left: auto;
@@ -287,6 +288,25 @@ body {
 	display: flex;
 	flex-flow: row wrap;
 	position: relative;
+}
+
+.social-container{
+	align-content: center;
+	display: flex;
+	flex-flow: row wrap;
+	padding-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.social-icons{
+	padding-left: 10px;
+	padding-right:10px;
+}
+
+#social-ico{
+	max-width: 55px;
+	max-height: 55px;
 }
 /* -----------------------ABOUT PAGE CLASSES----------------------- */
 
