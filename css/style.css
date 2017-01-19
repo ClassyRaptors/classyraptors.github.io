@@ -40,7 +40,12 @@ body {
 	flex-flow: row wrap;
 	position: relative;
 }
+/* -----------------------HEADER----------------------- */
 
+
+
+/* -----------------------PROJECT BOXES----------------------- */
+/*This determines how many boxes show up in each row on the page*/
 .image-container .image {
 	display: flex;
 	flex-flow: column nowrap;
@@ -54,6 +59,7 @@ body {
 	position: relative;
 }
 
+/**/
 .image-container .image.active .image-content {
 	transform: rotateY(180deg);
 }
@@ -155,10 +161,11 @@ body {
 .image-container .image .image-description.orange .action a {
 	background: black;
 }
+/* -----------------------PROJECT BOXES----------------------- */
+
 
 
 /* -----------------------SPECIFIC COLORS FOR EACH TILE CARD----------------------- */
-
 /* SUMMERTIME SCRIBBLES */
 .image-container .image .image-description.summertime-scribble {
 	background: #f0e9f3;
@@ -286,6 +293,7 @@ body {
 
 
 /* -----------------------CLASSES FOR PROJECT PAGES----------------------- */
+/*Appearance of title of the Project Page*/
 .project-title {
 	font-family:'Arbutus Slab', serif;
 	font-size: 72px;
@@ -294,7 +302,7 @@ body {
 	text-align: center;
 }
 
-/**/
+/*The width of the content on the screen*/
 .project-container{
 	max-width: 40em;
 	align-content: center;
