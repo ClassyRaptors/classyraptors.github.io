@@ -374,7 +374,15 @@ body {
 
 /*This adds a little space at the bottom of the page*/
 .footer-space{
-	height: 50px;
+	font-family:'Arbutus Slab', serif;
+	font-size: 16pt;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.footer-space .footer-link a{
+	color: #333333;
 }
 
 /*This makes a link within a paragraph remain the same color as the body text*/
@@ -383,6 +391,49 @@ body {
     text-decoration: none;
 }
 /* -----------------------CLASSES FOR PROJECT PAGES----------------------- */
+
+
+
+/* -----------------------CLASSES FOR THEATRE----------------------- */
+.theatre {
+    display: none;
+}
+
+.theatre.open {
+    cursor: pointer;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, .8);
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+.theatre img {
+    max-width: 90vw;
+    max-height: 90vh;
+}
+/* -----------------------CLASSES FOR THEATRE----------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
