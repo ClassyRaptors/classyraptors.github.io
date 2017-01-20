@@ -47,9 +47,56 @@
 	<div class="project-image"><img id="project-img" src="img/roman_garden/2.png"></div>
 	<div class="project-image"><img id="project-img" src="img/roman_garden/3.png"></div>
 	<div class="project-image"><img id="project-img" src="img/roman_garden/4.png"></div>
+	<div class="project-image"><img id="project-img" src="img/roman_garden/5.png"></div>
+	<div class="project-image"><img id="project-img" src="img/roman_garden/6.png"></div>
+	<div class="project-image"><img id="project-img" src="img/roman_garden/7.png"></div>
+	<div class="project-image"><img id="project-img" src="img/roman_garden/8.png"></div>
+	<div class="project-image"><img id="project-img" src="img/roman_garden/9.png"></div>
+	<div class="project-image"><img id="project-img" src="img/roman_garden/10.png"></div>
+	<div class="project-image"><img id="project-img" src="img/roman_garden/11.png"></div>
+	<div class="project-image"><img id="project-img" src="img/roman_garden/12.png"></div>
+	<div class="project-image"><img id="project-img" src="img/roman_garden/13.png"></div>
+	<div class="project-image"><img id="project-img" src="img/roman_garden/14.png"></div>
+	<div class="project-image"><img id="project-img" src="img/roman_garden/15.png"></div>
+	<div class="project-image"><img id="project-img" src="img/roman_garden/16.png"></div>
+	<div class="project-image"><img id="project-img" src="img/roman_garden/17.png"></div>
+	<div class="project-image"><img id="project-img" src="img/roman_garden/18.png"></div>
+	<div class="project-image"><img id="project-img" src="img/roman_garden/19.png"></div>
+	<div class="project-image"><img id="project-img" src="img/roman_garden/20.png"></div>
 	</div>
 
-	<div class="footer-space"> </div>
+<div class="theatre" id="theatre">
+			<img id="theatre_img" src="./img/roman_garden/1.png">
+		</div>
+	</div>
+	
+	<div class="footer-space">
+		<div class="footer-link"><a href="index.html"><u>Back to Projects</u></a></div>
+	</div>
+	
 
+
+	<!-- ---v------v------v------v---Theatre---v------v------v------v--- -->
+	<script type="text/javascript">
+		var elements = document.querySelectorAll('.project-image');
+		var theatre = document.getElementById('theatre');
+		var theatre_img = document.getElementById('theatre_img');
+
+		theatre.addEventListener('click', closeTheatre);
+
+		for(var x = 0; x < elements.length; x++) {
+			elements[x].addEventListener('click', openTheatre);
+		}
+
+		function openTheatre(e) {
+			theatre_img.src = e.target.currentSrc;
+			theatre.className = 'theatre open';
+		}
+
+		function closeTheatre() {
+			theatre.className = 'theatre';
+		}
+	</script>
+	<!-- ---^------^------^------^---Theatre---^------^------^------^--- -->
 </body> 
 </html>

@@ -49,9 +49,38 @@
 	<div class="project-image"><img id="project-img" src="img/roman_garden/4.png"></div>
 	</div>
 
+<div class="theatre" id="theatre">
+			<img id="theatre_img" src="./img/roman_garden/1.png">
+		</div>
+	</div>
+	
 	<div class="footer-space">
 		<div class="footer-link"><a href="index.html"><u>Back to Projects</u></a></div>
 	</div>
 	
+
+
+	<!-- ---v------v------v------v---Theatre---v------v------v------v--- -->
+	<script type="text/javascript">
+		var elements = document.querySelectorAll('.project-image');
+		var theatre = document.getElementById('theatre');
+		var theatre_img = document.getElementById('theatre_img');
+
+		theatre.addEventListener('click', closeTheatre);
+
+		for(var x = 0; x < elements.length; x++) {
+			elements[x].addEventListener('click', openTheatre);
+		}
+
+		function openTheatre(e) {
+			theatre_img.src = e.target.currentSrc;
+			theatre.className = 'theatre open';
+		}
+
+		function closeTheatre() {
+			theatre.className = 'theatre';
+		}
+	</script>
+	<!-- ---^------^------^------^---Theatre---^------^------^------^--- -->
 </body> 
 </html>
