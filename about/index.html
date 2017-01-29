@@ -2,7 +2,7 @@
 <html> 
 <head> 
  	<title>Timothy Welman</title>
-
+	
 	<!-- Charset specifies the character encoding for webpage -->
 	<meta charset="utf-8">
 	<meta name="description" content="Portfolio of Timothy Welman, containing various projects 
@@ -10,8 +10,8 @@
 	<meta name="keywords" content="Timothy, Welman, ClassyRaptor, Illustrations">
 	<meta name="author" content="Timothy Welman">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
- 	<link rel="stylesheet" type="text/css" href="css/reset.css">
- 	<link rel="stylesheet" type="text/css" href="css/style.css">
+ 	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+ 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 
 <body>
@@ -20,10 +20,10 @@
 	<div class="main-content">
 
 		<div class="header">
-			<div class="header-links"><a href="index.html">Timothy Welman</a></div>
+			<div class="header-links"><a href="/home">Timothy Welman</a></div>
 			<div class="header-links">
 				<ul>
-					<li><a href="index.html">Work.</a></li>
+					<li><a href="/home">Work.</a></li>
 				</ul>
 			</div>
 		</div>
@@ -31,7 +31,7 @@
 
 	
 
-	<div class="about-image"><img id="timmy-img" src="img/Timmy.png"></div>
+	<div class="about-image"><img id="timmy-img" src="../img/Timmy.png"></div>
 
 	<div class="text-container">
 		<div class="body">
@@ -47,17 +47,17 @@
 	
 	<div class = "social-container">
 	<div class="social-icons"><a href="http://classyraptor.tumblr.com" target="_blank">
-		<img id="social-ico" src="img/logos/tumblr.png"></a></div>
+		<img id="social-ico" src="../img/logos/tumblr.png"></a></div>
 	<div class="social-icons"><a href="https://twitter.com/classyraptor" target="_blank">
-		<img id="social-ico" src="img/logos/twitter.png"></a></div>
+		<img id="social-ico" src="../img/logos/twitter.png"></a></div>
 	<div class="social-icons"><a href="https://www.instagram.com/classyraptor/" target="_blank">
-		<img id="social-ico" src="img/logos/instagram.png"></a></div>
+		<img id="social-ico" src="../img/logos/instagram.png"></a></div>
 	<div class="social-icons"><a href="https://www.facebook.com/classyraptor/" target="_blank">
-		<img id="social-ico" src="img/logos/facebook.png"></a></div>
+		<img id="social-ico" src="../img/logos/facebook.png"></a></div>
 	<div class="social-icons"><a href="https://www.youtube.com/user/ClassyRaptor" target="_blank">
-		<img id="social-ico" src="img/logos/youtube.png"></a></div>
+		<img id="social-ico" src="../img/logos/youtube.png"></a></div>
 	<div class="social-icons"><a href="https://vimeo.com/classyraptor" target="_blank">
-		<img id="social-ico" src="img/logos/vimeo.png"></a></div>
+		<img id="social-ico" src="../img/logos/vimeo.png"></a></div>
 
 	</div>
 	</div>
@@ -66,7 +66,7 @@
 function Randomize() {
     var images = new Array("Timmy.png","Timmy2.png","Timmy3.png","Timmy4.png","Timmy5.png","Timmy6.png");
     var imageNum = Math.floor(Math.random() * images.length);
-    document.getElementById("timmy-img").src = "img/" + images[imageNum];
+    document.getElementById("timmy-img").src = "../img/" + images[imageNum];
 }
 
 window.onload = Randomize;
