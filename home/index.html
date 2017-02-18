@@ -138,10 +138,82 @@
 				</div>
 			</div>
 
+<!-- 			<div class="image troye-sivan">
+				<div class="image-content">
+					<div class="image-img"><img src="../img/tile/troye-sivan.png"></div>
+					<div class="image-description troye-sivan">
+						<div class="title">New York University</div>
+						<div class="description">
+
+							 This is the description for this individual tile card. The point is to give a brief description of the project. I will add an official description later on when I have more time.
+
+						</div>
+						<div class="action"><a href="../troye-sivan">See More</a></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="image nyu">
+				<div class="image-content">
+					<div class="image-img"><img src="../img/tile/nyu.png"></div>
+					<div class="image-description nyu">
+						<div class="title">New York University</div>
+						<div class="description">
+
+							 This is the description for this individual tile card. The point is to give a brief description of the project. I will add an official description later on when I have more time.
+
+						</div>
+						<div class="action"><a href="../nyu">See More</a></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="image cat-sequence">
+				<div class="image-content">
+					<div class="image-img"><img src="../img/tile/cat-sequence.png"></div>
+					<div class="image-description cat-sequence">
+						<div class="title">New York University</div>
+						<div class="description">
+
+							 This is the description for this individual tile card. The point is to give a brief description of the project. I will add an official description later on when I have more time.
+
+						</div>
+						<div class="action"><a href="../cat-sequence">See More</a></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="image chicken">
+				<div class="image-content">
+					<div class="image-img"><img src="../img/tile/chicken.png"></div>
+					<div class="image-description chicken">
+						<div class="title">Chicken Game</div>
+						<div class="description">
+
+							 This is the description for this individual tile card. The point is to give a brief description of the project. I will add an official description later on when I have more time.
+
+						</div>
+						<div class="action"><a href="../chicken">See More</a></div>
+					</div>
+				</div>
+			</div> -->
+
 
 	<!-- ---^---THIS IS WHERE ALL THE PROJECT TILES & DESCRIPTIONS GO---^--- -->
 
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+	<script>
+		$(document).ready(function()
+		{
+    		$('.image').click(function()
+    		{
+        $("#div1").fadeToggle();
+    		});
+		});
+	</script>
+
 	<script type="text/javascript">
 		$('.image').click(function() {
 			$('.image').removeClass('active');

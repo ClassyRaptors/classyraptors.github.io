@@ -25,7 +25,7 @@ body {
 	padding-top: 3px;
 	height: 90px;
 	width: 100%;
-	position: fixed;
+	position: absolute;
 	z-index: 3;
 }
 
@@ -59,11 +59,12 @@ body {
 	position: relative;
 }
 
-/*Rotates */
+/* Rotates */
 .image-container .image.active .image-content {
 	transform: rotateY(180deg);
 }
 
+/* Speed and effect of tile card flipping */
 .image-container .image .image-content {
 	transition: 0.6s;
 	transform-style: preserve-3d;
@@ -103,6 +104,7 @@ body {
 	transition: background 0.3s;
 }
 
+/* Slight white transparency when hovering over a tile*/
 .image-container .image:hover .image-img:after {
 	background: rgba(255, 255, 255, 0.1);
 }
@@ -125,7 +127,7 @@ body {
 
 /* Font for the description of the tile card */
 .image-container .image .image-description .description {
-	font-size: 26px;
+	font-size: 2vh;
 	text-align: left;
 	font-family: 'Roboto', sans-serif;
 	line-height: 102%;
@@ -272,6 +274,66 @@ body {
 .image-container .image.midday .image-description .action a {
 	background: #b89167;
 	color: #ffeed2;
+}
+
+/* CHICKEN GAME */
+.image-container .image.chicken .image-description{
+	background: black;
+}
+.image-container .image.chicken .image-description .title{
+	color: #4088fc;
+}
+.image-container .image.chicken .image-description .description{
+	color: #4088fc;
+}
+.image-container .image.chicken .image-description .action a {
+	background: #4088fc;
+	color: black;
+}
+
+/* NYU */
+.image-container .image.nyu .image-description{
+	background: white;
+}
+.image-container .image.nyu .image-description .title{
+	color: #491d65;
+}
+.image-container .image.nyu .image-description .description{
+	color: #491d65;
+}
+.image-container .image.nyu .image-description .action a {
+	background: #491d65;
+	color: white;
+}
+
+/* NYU */
+.image-container .image.cat-sequence .image-description{
+	background: #f9d38c;
+}
+.image-container .image.cat-sequence .image-description .title{
+	color: #201e21;
+}
+.image-container .image.cat-sequence .image-description .description{
+	color: #201e21;
+}
+.image-container .image.cat-sequence .image-description .action a {
+	background: #201e21;
+	color: #f9d38c;
+}
+
+/* TROYE SIVAN */
+.image-container .image.troye-sivan .image-description{
+	background: #dadadc;
+}
+.image-container .image.troye-sivan .image-description .title{
+	color: #3b3737;
+}
+.image-container .image.troye-sivan .image-description .description{
+	color: #3b3737;
+}
+.image-container .image.troye-sivan .image-description .action a {
+	background: #3b3737;
+	color: #dadadc;
 }
 /* -----------------------SPECIFIC COLORS FOR EACH TILE CARD----------------------- */
 

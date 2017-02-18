@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html> 
+<head> 
+ 	<title>Timothy Welman</title>
+
+	<!-- Charset specifies the character encoding for webpage -->
+	<meta charset="utf-8">
+	<meta name="description" content="Portfolio of Timothy Welman, containing various projects 
+	pertaining to illustration, animation, and photography">
+	<meta name="keywords" content="Timothy, Welman, ClassyRaptor, Illustrations">
+	<meta name="author" content="Timothy Welman">
+	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+ 	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+ 	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<body>
+	
+	<!-- ---v------v------v------v---HEADER---v------v------v------v--- -->
+	<div class="main-content">
+
+		<div class="header">
+			<div class="header-links"><a href="../home">Timothy Welman</a></div>
+			<div class="header-links toggle">
+				<ul>
+					<li><a href="../about">About.</a></li>
+				</ul>
+			</div>
+		</div>
+	<!-- ---^------^------^------^---HEADER---^------^------^------^--- -->
+
+<div class="project-title">Classy Raptor Logo</div>
+	
+	<div class = project-container>
+	<div class="project-description">
+		<div class="body">
+		<p>
+		This is a sample text. I am going to continue to type text here in order for
+		things to look natural and like I am actually typing a message. I will continue
+		to write more and more things down in the hopes that the page starts to fill up
+		more and it actually looks like I wrote a  
+		</p>
+		</div>
+	</div>
+
+	<div class="project-image"><img id="project-img" src="../img/classy_raptor/1.png"></div>
+	<div class="project-image"><img id="project-img" src="../img/classy_raptor/2.png"></div>
+	
+	</div>
+
+<div class="theatre" id="theatre">
+			<img id="theatre_img" src="../img/classy_raptor/1.png">
+		</div>
+	</div>
+	
+	<div class="footer-space">
+		<div class="footer-link"><a href="../home">More Projects</a></div>
+	</div>
+	
+	
+
+
+	<!-- ---v------v------v------v---Theatre---v------v------v------v--- -->
+	<script type="text/javascript">
+		var elements = document.querySelectorAll('.project-image');
+		var theatre = document.getElementById('theatre');
+		var theatre_img = document.getElementById('theatre_img');
+
+		theatre.addEventListener('click', closeTheatre);
+
+		for(var x = 0; x < elements.length; x++) {
+			elements[x].addEventListener('click', openTheatre);
+		}
+
+		function openTheatre(e) {
+			theatre_img.src = e.target.currentSrc;
+			theatre.className = 'theatre open';
+		}
+
+		function closeTheatre() {
+			theatre.className = 'theatre';
+		}
+	</script>
+	<!-- ---^------^------^------^---Theatre---^------^------^------^--- -->
+</body> 
+</html>
