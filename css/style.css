@@ -93,6 +93,7 @@ body {
 
 .image-container .image .image-img img {
 	width: 100%;
+	border-radius: 5px;
 }
 
 /* How much of the boxes are affected by the transparency */
