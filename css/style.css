@@ -399,13 +399,13 @@ body {
 	font-family:'Arbutus Slab', serif;
 	font-size: 72px;
 	color: #333333;
-	padding-top: 150px;
+	padding-top: 75px;
 	text-align: center;
 }
 
 /*The width of the content on the screen*/
 .project-container{
-	max-width: 40em;
+	max-width: 43em;
 	align-content: center;
 	padding-left: 25px;
 	padding-right: 25px;
