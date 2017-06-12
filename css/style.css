@@ -34,15 +34,17 @@ body {
 	color: #333333;
 }
 
+/* -----------------------HEADER----------------------- */
+
+/* -----------------------PROJECT BOXES----------------------- */
+/* */
 .image-container {
 	padding-top: 130px;
 	display: flex;
 	flex-flow: row wrap;
 	position: relative;
 }
-/* -----------------------HEADER----------------------- */
 
-/* -----------------------PROJECT BOXES----------------------- */
 /*This determines how many boxes show up in each row on the page*/
 .image-container .image {
 	display: flex;
