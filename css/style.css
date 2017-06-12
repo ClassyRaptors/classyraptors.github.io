@@ -42,8 +42,6 @@ body {
 }
 /* -----------------------HEADER----------------------- */
 
-
-
 /* -----------------------PROJECT BOXES----------------------- */
 /*This determines how many boxes show up in each row on the page*/
 .image-container .image {
@@ -55,14 +53,10 @@ body {
 	cursor: pointer;
 	overflow: hidden;
 	padding: 7px;
+	border-radius: 20px;
 	height: 33.333vw;
 	width: 33.333%;
 	position: relative;
-}
-
-/* Rotates */
-.image-container .image.active .image-content {
-	transform: rotateY(180deg);
 }
 
 /* Speed and effect of tile card flipping */
@@ -84,15 +78,18 @@ body {
 	transition: 0.6s;
 }
 
+/*
 .image-container .image .image-img {
 	transform: rotateY(0deg);
 	z-index: 2;
-}
+}*/
+
 
 .image-container .image .image-img img {
 	width: 100%;
 }
 
+/* How much of the boxes are affected by the transparency */
 .image-container .image .image-img:after {
 	display: block;
 	content: " ";
@@ -110,8 +107,7 @@ body {
 	background: rgba(255, 255, 255, 0.1);
 }
 
-
-/* Formatting for description */
+/* Formatting for description 
 .image-container .image .image-description {
 	box-sizing: border-box;
 	background: #f0e9f3;
@@ -124,25 +120,25 @@ body {
 	height: 100%;
 	position: absolute;
 	transform: rotateY(180deg);
-}
+}*/
 
-/* Font for the description of the tile card */
+/* Font for the description of the tile card 
 .image-container .image .image-description .description {
 	font-size: 2vh;
 	text-align: left;
 	font-family: 'Roboto', sans-serif;
 	line-height: 102%;
 	margin: 10px;
-}
+}*/
 
-/* Font for the title of the tile card */
+/* Font for the title of the tile card
 .image-container .image .image-description .title {
 	font-size: 4.2vw;
 	margin: 5px 10px;
 	font-family: 'Rubik', sans-serif;
-}
+}*/
 
-/* Position of the "See More" button */
+/* Position of the "See More" button 
 .image-container .image .image-description .action {
 	position: absolute;
 	left: 0;
@@ -151,20 +147,21 @@ body {
 	text-align: center;
 	width: 100%;
 	font-family: 'Rubik', sans-serif;
-}
+}*/
 
-/*Appearance of the "See More" button*/
+/*Appearance of the "See More" button
 .image-container .image .image-description .action a {
 	background: #6596b8;
 	color: #f0e9f3;
 	padding: 10px 18px;
 	border-radius: 12px;
 	font-size: 2vw;
-}
+}*/
 
+/*
 .image-container .image .image-description.orange .action a {
 	background: black;
-}
+}*/
 /* -----------------------PROJECT BOXES----------------------- */
 
 
