@@ -34,15 +34,19 @@ body {
 	color: #333333;
 }
 
-/* -----------------------HEADER----------------------- */
-
-/* -----------------------PROJECT BOXES----------------------- */
-/* */
 .image-container {
 	padding-top: 130px;
 	display: flex;
 	flex-flow: row wrap;
 	position: relative;
+}
+/* -----------------------HEADER----------------------- */
+
+/* -----------------------PROJECT BOXES----------------------- */
+/* */
+
+.tile-properties{
+
 }
 
 /*This determines how many boxes show up in each row on the page*/
@@ -433,6 +437,7 @@ body {
 /*The image will completely fill the div it's placed in*/
 #project-img {
 	max-width: 100%;
+	border-radius: 12px;
 }
 
 /*This adds a little space at the bottom of the page*/
