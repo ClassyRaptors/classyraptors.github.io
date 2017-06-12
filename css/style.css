@@ -405,7 +405,7 @@ body {
 
 /*The width of the content on the screen*/
 .project-container{
-	max-width: 43em;
+	max-width: 40em;
 	align-content: center;
 	padding-left: 25px;
 	padding-right: 25px;
