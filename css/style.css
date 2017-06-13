@@ -39,8 +39,26 @@ body {
 	display: flex;
 	flex-flow: row wrap;
 	position: relative;
+
 }
 /* -----------------------HEADER----------------------- */
+
+/* -----------------------PROJECT BOXES----------------------- */
+/* */
+.tile-container{
+	padding-top: 150px;
+	display: flex;
+	flex-wrap: wrap;
+	padding: none;
+	
+}
+
+/* */
+.tiles{
+
+
+}
+/* -----------------------PROJECT BOXES----------------------- */
 
 /* -----------------------PROJECT BOXES----------------------- */
 /* */
