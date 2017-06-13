@@ -48,14 +48,15 @@ body {
 .tile-container{
 	padding-top: 150px;
 	display: flex;
-	flex-wrap: wrap;
-	padding: none;
+	flex-flow: row wrap;
+	position: relative;
+	
 	
 }
 
 /* */
 .tiles{
-
+align-items: center;
 
 }
 /* -----------------------PROJECT BOXES----------------------- */
