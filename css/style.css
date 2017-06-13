@@ -48,7 +48,7 @@ body {
 .tile-container{
 	padding-top: 150px;
 	margin: 0 auto;
-	max-width: 1200px;
+	max-width: 100%;
 	padding-bottom: 0 1rem;	
 }
 
@@ -62,7 +62,14 @@ body {
 	display: block;
 }
 
-@media screen and (min-width: 400px){
+@media screen and (min-width: 300px){
+	.cell{
+		width: 100%;
+	}
+}
+
+
+@media screen and (min-width: 600px){
 .grid{
 	display: flex;
 	flex-wrap: wrap;
