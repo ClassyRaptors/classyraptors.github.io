@@ -47,17 +47,19 @@ body {
 /* */
 .tile-container{
 	padding-top: 150px;
-	display: flex;
-	flex-flow: row wrap;
-	position: relative;
-	
-	
+	margin: 0 auto;
+	max-width: 1200px;
+	padding-bottom: 0 1rem;	
 }
 
 /* */
 .tiles{
-align-items: center;
+	max-width: 100%;
+}
 
+/* */
+.cell img{
+	display: block;
 }
 /* -----------------------PROJECT BOXES----------------------- */
 
